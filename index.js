@@ -12,6 +12,7 @@ module.exports = function generate(outputFile) {
   const npm = loadJSON('./package.json')
   const name = npm.name = (bower && bower.name) || npm.name
   fs.writeFileSync(doc, `# ${name}\n\n`)
+  fs.appendFileSync(doc, 'created with [pkg-doc](https://www.npmjs.com/package/pkg-doc)\n\n')
   fs.appendFileSync(doc, '## Direct Dependencies\n\n')
   if (bower && bower.dependencies) {
     fs.appendFileSync(doc, '### Bower\n\n')

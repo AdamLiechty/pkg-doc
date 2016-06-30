@@ -1,0 +1,30 @@
+{
+  "name": "pkg-doc",
+  "version": "0.1.0",
+  "description": "Document NodeJS and Bower dependencies for a project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamliechty/pkg-doc.git"
+  },
+  "keywords": [
+    "node",
+    "package",
+    "document",
+    "documentation",
+    "bower",
+    "open-source"
+  ],
+  "bin": {
+    "pkg-doc": "./bin/pkg-doc"
+  },
+  "author": "Adam Liechty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamliechty/pkg-doc/issues"
+  },
+  "homepage": "https://github.com/adamliechty/pkg-doc#readme"
+}
